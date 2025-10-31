@@ -63,7 +63,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: white;
+  width: 100%;
   padding: 10px 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   background-color: rgb(70, 63, 83);
@@ -87,7 +87,8 @@ button:hover {
   margin-top: 60px;
   align-items: center;
   padding: 20px;
-  width: 40%;
+  width: 50%;
+  /* height: 800px; */
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -96,7 +97,8 @@ button:hover {
 .post-form select,
 .post-form button {
   width: 60%;
-  padding: 10px;
+  /* padding: 10px; */
+  /* height: 200px; */
   margin-top: 10px;
   margin: 0 auto;
   border-radius: 5px;
