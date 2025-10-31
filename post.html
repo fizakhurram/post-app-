@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo"><img src="" id="logo" alt="" /></div>
+      <div class="userdiv"><img id="userDp" src="" alt="DP" /></div>
+      <span id="userName"></span>
+    </div>
+    <div class="post-form">
+      <h3>Create A Post</h3>
+      <input type="text" id="title" placeholder="Title" required />
+      <textarea
+        type="text"
+        id="description"
+        placeholder="Description"
+        required
+      ></textarea>
+      <select name="" id="background">
+        <option value="bg1">Orange Gradient</option>
+        <option value="bg2">Blue-Green Gradient</option>
+        <option value="bg3">Pink Gradient</option>
+        <option value="bg4">Purple Gradient</option>
+      </select>
+      <button onclick="createPost()">Post</button>
+      <div class="posts-container" id="postsContainer"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

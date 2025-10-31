@@ -19,3 +19,14 @@ function signup() {
 //“Open the page called post.html in the current tab”
 }
 
+const savedData = JSON.parse("user")
+
+function createPost(){
+if(savedData){
+    document.getElementById("userDp").src = savedData.dp
+    document.getElementById("userName").src = savedData.name
+}else {
+    alert("No user found. Please sign up first.");
+    window.location.href = "signup.html";
+}
+}
